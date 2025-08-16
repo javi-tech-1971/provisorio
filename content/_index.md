@@ -1,5 +1,7 @@
 ---
-title: "Bienvenido"
+title: "Fuente de Derecho"
 ---
+# Fuente de Derecho
 
-Este es un sitio de prueba con **Hugo + Hextra**.
+Bienvenido/a a **Fuente de Derecho**. Explorá el contenido por categoría desde el menú superior.
+
