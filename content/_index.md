@@ -1,7 +1,9 @@
 ---
-title: "Fuente de Derecho"
----
+title: "Bienvenido a Fuente de Derecho"
+description: "Sitio de consulta con doctrina, jurisprudencia, ley y novedades"
+--- 
 
 # Fuente de Derecho
 
-Bienvenido/a a **Fuente de Derecho**. Explorá el contenido por categoría desde el menú superior.
+Este es el sitio principal. Desde aquí podés acceder a las secciones de doctrina, jurisprudencia, ley y novedades.
+
