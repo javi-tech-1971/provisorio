@@ -1,0 +1,7 @@
+baseURL = 'https://javi-tech-1971.github.io/provisorio/'
+languageCode = 'es-AR'
+title = 'Sitio de pruebas'
+theme = 'hextra'
+
+[pagination]
+  pagerSize = 10
