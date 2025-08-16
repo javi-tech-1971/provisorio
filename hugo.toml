@@ -3,7 +3,7 @@ title = "Provisorio"
 theme = "hextra"
 languageCode = "es"
 defaultContentLanguage = "es"
+enableRobotsTXT = true
 
-[params]
-  description = "Sitio de pruebas con Hugo y el tema Hextra"
-  author = "Fuente de Derecho"
+[markup.goldmark.renderer]
+  unsafe = true

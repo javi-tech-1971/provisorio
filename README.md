@@ -1,2 +1,0 @@
-# provisorio
-Mi Beta Tester
