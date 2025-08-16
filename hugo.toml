@@ -1,9 +1,7 @@
-cat > hugo.toml <<'EOF'
 baseURL = "https://blog.fuentedederecho.com.ar/"
 languageCode = "es"
 title = "Fuente de Derecho"
 theme = "hextra"
-EOF
 
 [menu]
 
@@ -24,4 +22,5 @@ EOF
 
   [[menu.main]]
     name = "Novedades"
-   
+    url = "/novedades/"
+    weight = 4
