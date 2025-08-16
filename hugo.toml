@@ -1,7 +1,5 @@
-baseURL = 'https://javi-tech-1971.github.io/provisorio/'
-languageCode = 'es-AR'
-title = 'Sitio de pruebas'
-theme = 'hextra'
-
-[pagination]
-  pagerSize = 10
+baseURL = "https://blog.fuentedederecho.com.ar/"
+title = "Provisorio"
+theme = "hextra"
+languageCode = "es"
+defaultContentLanguage = "es"
