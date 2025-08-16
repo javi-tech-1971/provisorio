@@ -1,0 +1,3 @@
+[submodule "themes/Hxtra"]
+	path = themes/Hxtra
+	url = https://github.com/hxtra/hxtra.git
