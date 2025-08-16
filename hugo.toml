@@ -1,10 +1,26 @@
+cat > hugo.toml <<'EOF'
 baseURL = "https://blog.fuentedederecho.com.ar/"
-title = "Provisorio"
-theme = "hextra"
 languageCode = "es"
-defaultContentLanguage = "es"
+title = "Fuente de Derecho"
+theme = "hextra"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[menu]
+
+  [[menu.main]]
+    name = "Doctrina"
+    url = "/doctrina/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Jurisprudencia"
+    url = "/jurisprudencia/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Ley"
+    url = "/ley/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Novedades"
+   
