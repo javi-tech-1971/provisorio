@@ -1,6 +1,7 @@
 ---
-title: "Ejemplo en doctrina"
+title: "Archivo de ejemplo en doctrina"
 date: 2025-08-16
 draft: false
 ---
-Este es un contenido de prueba en la sección **doctrina**.
+
+Contenido de ejemplo para la sección **doctrina**.
