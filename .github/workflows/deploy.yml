@@ -1,7 +1,9 @@
 name: Deploy Hugo Site
+
 on:
   push:
     branches: [main]
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -16,9 +18,17 @@ jobs:
           hugo-version: "latest"
           extended: true
       - name: Build
-        run: hugo --minify --baseURL "https://blog.fuentedederecho.com.ar/"
+        run: |
+          # Crear archivos críticos
+          mkdir -p static
+          echo "/*  Content-Type: text/html" > static/_headers
+          touch .nojekyll
+          
+          # Compilar sitio
+          hugo --minify --baseURL "https://blog.fuentedederecho.com.ar/"
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: blog.fuentedederecho.com.ar
